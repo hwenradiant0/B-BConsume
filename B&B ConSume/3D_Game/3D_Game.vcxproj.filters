@@ -1,0 +1,452 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="소스 파일\Rendering">
+      <UniqueIdentifier>{1d165524-a4e3-4937-8927-b054aca172e4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Camera">
+      <UniqueIdentifier>{9918f60a-9d52-4cfc-86ff-8666f82bdf4b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\GameBase">
+      <UniqueIdentifier>{b54e5b0d-4794-447a-9c10-a8f3bedcb4ea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Essential">
+      <UniqueIdentifier>{616b69a6-4333-438b-ba09-75dee29f683f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Mover">
+      <UniqueIdentifier>{57cf2318-7295-4ee1-a20a-f146d969f60a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\I/0">
+      <UniqueIdentifier>{80106028-edea-43bf-83be-410ddf7ffe44}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\BackGround">
+      <UniqueIdentifier>{4477eb8a-4b90-4a9e-81be-1bc68881d129}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Particle">
+      <UniqueIdentifier>{230e99ac-d419-4e25-a4c6-a34cbcd47c2f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Rendering\Mesh">
+      <UniqueIdentifier>{45986e72-b21b-47c8-88d9-8b389dc461f2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Rendering\Texture">
+      <UniqueIdentifier>{1632d9ac-01f4-45b5-b004-ce625c223fc9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Mover\Entity">
+      <UniqueIdentifier>{32130d8a-c82d-4b2b-86a0-a190c854e0aa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Mover\Player">
+      <UniqueIdentifier>{d06fe096-af84-4ebd-8872-97bb506368b1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Mover\Tile">
+      <UniqueIdentifier>{594f6f82-6799-44fd-861d-63fff230cdc7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\I/0\FileLoad">
+      <UniqueIdentifier>{368c348f-f43f-42b6-b888-7828b748197e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\I/0\ZFLog">
+      <UniqueIdentifier>{913c8cbe-6e26-470b-a276-1ea89e4f1f76}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Essential\Device">
+      <UniqueIdentifier>{2452e80f-a8ec-4005-9875-f68d9450f322}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\BackGround\BackGround">
+      <UniqueIdentifier>{a176b35d-4b78-4af9-b23b-a5db123d16ff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\BackGround\SkyBox">
+      <UniqueIdentifier>{911f9337-e7ba-434d-87e6-f1f9bdfa20f2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Event">
+      <UniqueIdentifier>{256e9336-4424-4471-91d9-7d9934cb6048}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Sound">
+      <UniqueIdentifier>{f4306c62-ef65-40c1-9c51-b0980f9fdeab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\I/0\Keyboard">
+      <UniqueIdentifier>{ddb48f28-51db-4f27-9a1e-0b165974dc65}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\I/0\Mouse">
+      <UniqueIdentifier>{a418e63d-c7e5-41d9-9492-4387deaadb35}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Rendering\Shader">
+      <UniqueIdentifier>{de8936fd-71ba-4a85-82d4-c04d599f1740}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Physical">
+      <UniqueIdentifier>{2d518a57-5b7f-4831-880e-4f5be9e8c358}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\UI">
+      <UniqueIdentifier>{4ee51ac2-03b2-4964-86c8-74423d516ec2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\UI\MainMenu">
+      <UniqueIdentifier>{70240e2c-2095-4ae7-a1c5-ab899c44844a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\UI\Credit">
+      <UniqueIdentifier>{658c34ab-0621-4e47-8962-d07a0d9df8e7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\UI\Pause">
+      <UniqueIdentifier>{8101946f-0a96-49bf-bfbc-39268cf10812}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\UI\Game_UI">
+      <UniqueIdentifier>{20716d4d-5118-4385-a20a-23888f7c99d7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\UI\Game_over">
+      <UniqueIdentifier>{8e0ea260-e53e-47fe-a47a-e10670cc6c5d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\UI\Clear">
+      <UniqueIdentifier>{f30f7eb5-e53f-4ed5-a249-7d03ea4511a7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\UI\Hp_Bar">
+      <UniqueIdentifier>{7673cac7-f6a7-4938-9d5b-25e390ac5940}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ZCamera.h">
+      <Filter>소스 파일\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="GameBase.h">
+      <Filter>소스 파일\GameBase</Filter>
+    </ClInclude>
+    <ClInclude Include="Define.h">
+      <Filter>소스 파일\Essential</Filter>
+    </ClInclude>
+    <ClInclude Include="Particle.h">
+      <Filter>소스 파일\Particle</Filter>
+    </ClInclude>
+    <ClInclude Include="Mesh.h">
+      <Filter>소스 파일\Rendering\Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture.h">
+      <Filter>소스 파일\Rendering\Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="Entity.h">
+      <Filter>소스 파일\Mover\Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>소스 파일\Mover\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Tile.h">
+      <Filter>소스 파일\Mover\Tile</Filter>
+    </ClInclude>
+    <ClInclude Include="FileLoad.h">
+      <Filter>소스 파일\I/0\FileLoad</Filter>
+    </ClInclude>
+    <ClInclude Include="ZFLog.h">
+      <Filter>소스 파일\I/0\ZFLog</Filter>
+    </ClInclude>
+    <ClInclude Include="Device.h">
+      <Filter>소스 파일\Essential\Device</Filter>
+    </ClInclude>
+    <ClInclude Include="Background.h">
+      <Filter>소스 파일\BackGround\BackGround</Filter>
+    </ClInclude>
+    <ClInclude Include="SkyBox.h">
+      <Filter>소스 파일\BackGround\SkyBox</Filter>
+    </ClInclude>
+    <ClInclude Include="Event_Process.h">
+      <Filter>소스 파일\Event</Filter>
+    </ClInclude>
+    <ClInclude Include="Sound.h">
+      <Filter>소스 파일\Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="Mouse.h">
+      <Filter>소스 파일\I/0\Mouse</Filter>
+    </ClInclude>
+    <ClInclude Include="Keyboard.h">
+      <Filter>소스 파일\I/0\Keyboard</Filter>
+    </ClInclude>
+    <ClInclude Include="MainMenu.h">
+      <Filter>소스 파일\UI\MainMenu</Filter>
+    </ClInclude>
+    <ClInclude Include="Frustum.h">
+      <Filter>소스 파일\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="Particle_Explosion.h">
+      <Filter>소스 파일\Particle</Filter>
+    </ClInclude>
+    <ClInclude Include="Particle_Petal.h">
+      <Filter>소스 파일\Particle</Filter>
+    </ClInclude>
+    <ClInclude Include="Shader.h">
+      <Filter>소스 파일\Rendering\Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="Clear_Tile.h">
+      <Filter>소스 파일\Mover\Tile</Filter>
+    </ClInclude>
+    <ClInclude Include="Fire_Tile.h">
+      <Filter>소스 파일\Mover\Tile</Filter>
+    </ClInclude>
+    <ClInclude Include="Iron_Tile.h">
+      <Filter>소스 파일\Mover\Tile</Filter>
+    </ClInclude>
+    <ClInclude Include="One_Wind_Tile.h">
+      <Filter>소스 파일\Mover\Tile</Filter>
+    </ClInclude>
+    <ClInclude Include="Styro_Tile.h">
+      <Filter>소스 파일\Mover\Tile</Filter>
+    </ClInclude>
+    <ClInclude Include="Time_Tile.h">
+      <Filter>소스 파일\Mover\Tile</Filter>
+    </ClInclude>
+    <ClInclude Include="Water_Tile.h">
+      <Filter>소스 파일\Mover\Tile</Filter>
+    </ClInclude>
+    <ClInclude Include="Wind_Tile.h">
+      <Filter>소스 파일\Mover\Tile</Filter>
+    </ClInclude>
+    <ClInclude Include="Wood_Tile.h">
+      <Filter>소스 파일\Mover\Tile</Filter>
+    </ClInclude>
+    <ClInclude Include="Collision.h">
+      <Filter>소스 파일\Physical</Filter>
+    </ClInclude>
+    <ClInclude Include="Phisical.h">
+      <Filter>소스 파일\Physical</Filter>
+    </ClInclude>
+    <ClInclude Include="UI_Mesh.h">
+      <Filter>소스 파일\Rendering\Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="MenuMesh.h">
+      <Filter>소스 파일\UI\MainMenu</Filter>
+    </ClInclude>
+    <ClInclude Include="Move_Wind_Tile.h">
+      <Filter>소스 파일\Mover\Tile</Filter>
+    </ClInclude>
+    <ClInclude Include="Move_Tile.h">
+      <Filter>소스 파일\Mover\Tile</Filter>
+    </ClInclude>
+    <ClInclude Include="Particle_Rise.h">
+      <Filter>소스 파일\Particle</Filter>
+    </ClInclude>
+    <ClInclude Include="CreditDice_Algorithm.h">
+      <Filter>소스 파일\UI\Credit</Filter>
+    </ClInclude>
+    <ClInclude Include="Pause_System.h">
+      <Filter>소스 파일\UI\Pause</Filter>
+    </ClInclude>
+    <ClInclude Include="UpDown_Tile.h">
+      <Filter>소스 파일\Mover\Tile</Filter>
+    </ClInclude>
+    <ClInclude Include="Particle_Wind.h">
+      <Filter>소스 파일\Particle</Filter>
+    </ClInclude>
+    <ClInclude Include="Particle_Send.h">
+      <Filter>소스 파일\Particle</Filter>
+    </ClInclude>
+    <ClInclude Include="Bomb_Tile3.h">
+      <Filter>소스 파일\Mover\Tile</Filter>
+    </ClInclude>
+    <ClInclude Include="Bomb_Tile.h">
+      <Filter>소스 파일\Mover\Tile</Filter>
+    </ClInclude>
+    <ClInclude Include="Bomb_Tile2.h">
+      <Filter>소스 파일\Mover\Tile</Filter>
+    </ClInclude>
+    <ClInclude Include="Clear.h">
+      <Filter>소스 파일\UI\Clear</Filter>
+    </ClInclude>
+    <ClInclude Include="Hp_Bar.h">
+      <Filter>소스 파일\UI\Hp_Bar</Filter>
+    </ClInclude>
+    <ClInclude Include="Game_Over.h">
+      <Filter>소스 파일\UI\Game_over</Filter>
+    </ClInclude>
+    <ClInclude Include="Particle_Die.h">
+      <Filter>소스 파일\Particle</Filter>
+    </ClInclude>
+    <ClInclude Include="UpDownIron_Tile.h">
+      <Filter>소스 파일\Mover\Tile</Filter>
+    </ClInclude>
+    <ClInclude Include="Bomb_Tile4.h">
+      <Filter>소스 파일\Mover\Tile</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="ZCamera.cpp">
+      <Filter>소스 파일\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="GameBase.cpp">
+      <Filter>소스 파일\GameBase</Filter>
+    </ClCompile>
+    <ClCompile Include="Particle.cpp">
+      <Filter>소스 파일\Particle</Filter>
+    </ClCompile>
+    <ClCompile Include="Mesh.cpp">
+      <Filter>소스 파일\Rendering\Mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="Texture.cpp">
+      <Filter>소스 파일\Rendering\Texture</Filter>
+    </ClCompile>
+    <ClCompile Include="Entity.cpp">
+      <Filter>소스 파일\Mover\Entity</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>소스 파일\Mover\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Tile.cpp">
+      <Filter>소스 파일\Mover\Tile</Filter>
+    </ClCompile>
+    <ClCompile Include="FileLoad.cpp">
+      <Filter>소스 파일\I/0\FileLoad</Filter>
+    </ClCompile>
+    <ClCompile Include="ZFLog.cpp">
+      <Filter>소스 파일\I/0\ZFLog</Filter>
+    </ClCompile>
+    <ClCompile Include="Device.cpp">
+      <Filter>소스 파일\Essential\Device</Filter>
+    </ClCompile>
+    <ClCompile Include="Background.cpp">
+      <Filter>소스 파일\BackGround\BackGround</Filter>
+    </ClCompile>
+    <ClCompile Include="SkyBox.cpp">
+      <Filter>소스 파일\BackGround\SkyBox</Filter>
+    </ClCompile>
+    <ClCompile Include="Event_Process.cpp">
+      <Filter>소스 파일\Event</Filter>
+    </ClCompile>
+    <ClCompile Include="Sound.cpp">
+      <Filter>소스 파일\Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="Mouse.cpp">
+      <Filter>소스 파일\I/0\Mouse</Filter>
+    </ClCompile>
+    <ClCompile Include="Keyboard.cpp">
+      <Filter>소스 파일\I/0\Keyboard</Filter>
+    </ClCompile>
+    <ClCompile Include="MainMenu.cpp">
+      <Filter>소스 파일\UI\MainMenu</Filter>
+    </ClCompile>
+    <ClCompile Include="Frustum.cpp">
+      <Filter>소스 파일\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="Particle_Explosion.cpp">
+      <Filter>소스 파일\Particle</Filter>
+    </ClCompile>
+    <ClCompile Include="Particle_Petal.cpp">
+      <Filter>소스 파일\Particle</Filter>
+    </ClCompile>
+    <ClCompile Include="Shader.cpp">
+      <Filter>소스 파일\Rendering\Shader</Filter>
+    </ClCompile>
+    <ClCompile Include="Clear_Tile.cpp">
+      <Filter>소스 파일\Mover\Tile</Filter>
+    </ClCompile>
+    <ClCompile Include="Fire_Tile.cpp">
+      <Filter>소스 파일\Mover\Tile</Filter>
+    </ClCompile>
+    <ClCompile Include="Iron_Tile.cpp">
+      <Filter>소스 파일\Mover\Tile</Filter>
+    </ClCompile>
+    <ClCompile Include="One_Wind_Tile.cpp">
+      <Filter>소스 파일\Mover\Tile</Filter>
+    </ClCompile>
+    <ClCompile Include="Styro_Tile.cpp">
+      <Filter>소스 파일\Mover\Tile</Filter>
+    </ClCompile>
+    <ClCompile Include="Time_Tile.cpp">
+      <Filter>소스 파일\Mover\Tile</Filter>
+    </ClCompile>
+    <ClCompile Include="Water_Tile.cpp">
+      <Filter>소스 파일\Mover\Tile</Filter>
+    </ClCompile>
+    <ClCompile Include="Wind_Tile.cpp">
+      <Filter>소스 파일\Mover\Tile</Filter>
+    </ClCompile>
+    <ClCompile Include="Wood_Tile.cpp">
+      <Filter>소스 파일\Mover\Tile</Filter>
+    </ClCompile>
+    <ClCompile Include="Collision.cpp">
+      <Filter>소스 파일\Physical</Filter>
+    </ClCompile>
+    <ClCompile Include="Phisical.cpp">
+      <Filter>소스 파일\Physical</Filter>
+    </ClCompile>
+    <ClCompile Include="UI_Mesh.cpp">
+      <Filter>소스 파일\Rendering\Mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="MenuMesh.cpp">
+      <Filter>소스 파일\UI\MainMenu</Filter>
+    </ClCompile>
+    <ClCompile Include="Move_Wind_Tile.cpp">
+      <Filter>소스 파일\Mover\Tile</Filter>
+    </ClCompile>
+    <ClCompile Include="Move_Tile.cpp">
+      <Filter>소스 파일\Mover\Tile</Filter>
+    </ClCompile>
+    <ClCompile Include="Particle_Rise.cpp">
+      <Filter>소스 파일\Particle</Filter>
+    </ClCompile>
+    <ClCompile Include="CreditDice_Algorithm.cpp">
+      <Filter>소스 파일\UI\Credit</Filter>
+    </ClCompile>
+    <ClCompile Include="Pause_System.cpp">
+      <Filter>소스 파일\UI\Pause</Filter>
+    </ClCompile>
+    <ClCompile Include="UpDown_Tile.cpp">
+      <Filter>소스 파일\Mover\Tile</Filter>
+    </ClCompile>
+    <ClCompile Include="Particle_Wind.cpp">
+      <Filter>소스 파일\Particle</Filter>
+    </ClCompile>
+    <ClCompile Include="Particle_Send.cpp">
+      <Filter>소스 파일\Particle</Filter>
+    </ClCompile>
+    <ClCompile Include="Bomb_Tile.cpp">
+      <Filter>소스 파일\Mover\Tile</Filter>
+    </ClCompile>
+    <ClCompile Include="Bomb_Tile2.cpp">
+      <Filter>소스 파일\Mover\Tile</Filter>
+    </ClCompile>
+    <ClCompile Include="Bomb_Tile3.cpp">
+      <Filter>소스 파일\Mover\Tile</Filter>
+    </ClCompile>
+    <ClCompile Include="Clear.cpp">
+      <Filter>소스 파일\UI\Clear</Filter>
+    </ClCompile>
+    <ClCompile Include="Hp_Bar.cpp">
+      <Filter>소스 파일\UI\Hp_Bar</Filter>
+    </ClCompile>
+    <ClCompile Include="Game_Over.cpp">
+      <Filter>소스 파일\UI\Game_over</Filter>
+    </ClCompile>
+    <ClCompile Include="Particle_Die.cpp">
+      <Filter>소스 파일\Particle</Filter>
+    </ClCompile>
+    <ClCompile Include="UpDownIron_Tile.cpp">
+      <Filter>소스 파일\Mover\Tile</Filter>
+    </ClCompile>
+    <ClCompile Include="Bomb_Tile4.cpp">
+      <Filter>소스 파일\Mover\Tile</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram1.cd" />
+    <None Include="Data\BallBoxConSume.fx">
+      <Filter>소스 파일\Rendering\Shader</Filter>
+    </None>
+    <None Include="Data\BallBoxConSume(Diffuse,Specular).fx">
+      <Filter>소스 파일\Rendering\Shader</Filter>
+    </None>
+    <None Include="Data\Alpha.fx">
+      <Filter>소스 파일\Rendering\Shader</Filter>
+    </None>
+    <None Include="Big_Icon.ico">
+      <Filter>리소스 파일</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="3D_Game.rc">
+      <Filter>리소스 파일</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
